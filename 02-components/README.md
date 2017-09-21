@@ -92,7 +92,7 @@ class EmailListItem extends PureComponent {
 class EmailList extends PureComponent {
   render() {
     return (
-      <ul class="email-list">
+      <ul className="email-list">
         <li>
           <EmailListItem
             from="alittle0@chronoengine.com"
