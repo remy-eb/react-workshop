@@ -28,7 +28,7 @@ export default class App extends PureComponent {
 
   render() {
     let {emails, selectedEmailId} = this.state;
-    let selectedEmail = emails.find(email => email.id === selectedEmailId);
+    let selectedEmail = emails.find(email => email.id === this.selectedEmailId);
     let emailViewComponent;
 
     if (selectedEmail) {
